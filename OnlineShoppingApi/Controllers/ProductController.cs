@@ -1,5 +1,6 @@
 ﻿using OnlineShopping.DAL;
 using OnlineShopping.DAL.Models;
+using OnlineShopping.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,17 +13,19 @@ namespace OnlineShoppingApi.Controllers
     public class ProductController : ApiController
     {
         private readonly IGenericRepository<Product> productRepository;
+        private readonly IProductService productService;
 
-        public ProductController(IGenericRepository<Product> productRepository)
+        public ProductController(IGenericRepository<Product> productRepository, IProductService productService)
         {
             this.productRepository = productRepository;
+            this.productService = productService;
         }
 
         [HttpGet]
         [Route("products")]
         public List<Product> GetProducts()
         {
-            return productRepository.GetAll().ToList();
+            return productService.GetAllProduct().ToList();
         }
 
         [HttpPost]
@@ -30,7 +33,8 @@ namespace OnlineShoppingApi.Controllers
         public IHttpActionResult CreateProduct(Product product)
         {
             product.CreatedOn = DateTime.Today;
-            productRepository.Insert(product);
+            //productRepository.Insert(product);
+            productService.InsertProduct(product);
             return Ok();
         }
 
@@ -38,7 +42,7 @@ namespace OnlineShoppingApi.Controllers
         [Route("products/delete/{id}")]
         public IHttpActionResult Delete(long id)
         {
-            productRepository.Delete(id);
+            productService.DeleteProduct(id);
             return Ok();
         }
     }

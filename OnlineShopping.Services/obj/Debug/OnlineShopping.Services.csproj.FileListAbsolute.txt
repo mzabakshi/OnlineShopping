@@ -1,0 +1,11 @@
+C:\Users\zakiu\source\repos\OnlineShopping\OnlineShopping.Services\bin\Debug\OnlineShopping.Services.dll
+C:\Users\zakiu\source\repos\OnlineShopping\OnlineShopping.Services\bin\Debug\OnlineShopping.Services.pdb
+C:\Users\zakiu\source\repos\OnlineShopping\OnlineShopping.Services\bin\Debug\OnlineShopping.DAL.dll
+C:\Users\zakiu\source\repos\OnlineShopping\OnlineShopping.Services\bin\Debug\EntityFramework.dll
+C:\Users\zakiu\source\repos\OnlineShopping\OnlineShopping.Services\bin\Debug\OnlineShopping.DAL.pdb
+C:\Users\zakiu\source\repos\OnlineShopping\OnlineShopping.Services\bin\Debug\OnlineShopping.DAL.dll.config
+C:\Users\zakiu\source\repos\OnlineShopping\OnlineShopping.Services\bin\Debug\EntityFramework.xml
+C:\Users\zakiu\source\repos\OnlineShopping\OnlineShopping.Services\obj\Debug\OnlineShopping.Services.csprojResolveAssemblyReference.cache
+C:\Users\zakiu\source\repos\OnlineShopping\OnlineShopping.Services\obj\Debug\OnlineShopping.Services.csproj.CoreCompileInputs.cache
+C:\Users\zakiu\source\repos\OnlineShopping\OnlineShopping.Services\obj\Debug\OnlineShopping.Services.dll
+C:\Users\zakiu\source\repos\OnlineShopping\OnlineShopping.Services\obj\Debug\OnlineShopping.Services.pdb

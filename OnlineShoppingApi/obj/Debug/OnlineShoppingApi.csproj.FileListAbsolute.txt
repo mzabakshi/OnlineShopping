@@ -10,6 +10,7 @@ C:\Users\zakiu\source\repos\OnlineShopping\OnlineShoppingApi\bin\Microsoft.Web.I
 C:\Users\zakiu\source\repos\OnlineShopping\OnlineShoppingApi\bin\Newtonsoft.Json.dll
 C:\Users\zakiu\source\repos\OnlineShopping\OnlineShoppingApi\bin\NLog.dll
 C:\Users\zakiu\source\repos\OnlineShopping\OnlineShoppingApi\bin\OnlineShopping.DAL.dll
+C:\Users\zakiu\source\repos\OnlineShopping\OnlineShoppingApi\bin\OnlineShopping.Services.dll
 C:\Users\zakiu\source\repos\OnlineShopping\OnlineShoppingApi\bin\Purplelight.Framework.Autofac.Integration.WebApi.dll
 C:\Users\zakiu\source\repos\OnlineShopping\OnlineShoppingApi\bin\System.Net.Http.Formatting.dll
 C:\Users\zakiu\source\repos\OnlineShopping\OnlineShoppingApi\bin\System.Web.Helpers.dll
@@ -22,6 +23,7 @@ C:\Users\zakiu\source\repos\OnlineShopping\OnlineShoppingApi\bin\System.Web.WebP
 C:\Users\zakiu\source\repos\OnlineShopping\OnlineShoppingApi\bin\System.Web.WebPages.Razor.dll
 C:\Users\zakiu\source\repos\OnlineShopping\OnlineShoppingApi\bin\OnlineShopping.DAL.pdb
 C:\Users\zakiu\source\repos\OnlineShopping\OnlineShoppingApi\bin\OnlineShopping.DAL.dll.config
+C:\Users\zakiu\source\repos\OnlineShopping\OnlineShoppingApi\bin\OnlineShopping.Services.pdb
 C:\Users\zakiu\source\repos\OnlineShopping\OnlineShoppingApi\bin\Autofac.xml
 C:\Users\zakiu\source\repos\OnlineShopping\OnlineShoppingApi\bin\Autofac.Integration.WebApi.xml
 C:\Users\zakiu\source\repos\OnlineShopping\OnlineShoppingApi\bin\EntityFramework.xml

@@ -1,6 +1,7 @@
 ﻿using Autofac;
 using Autofac.Integration.WebApi;
 using OnlineShopping.DAL;
+using OnlineShopping.Services;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -40,7 +41,10 @@ namespace AutoFacWithWebAPI.App_Start
                    .As(typeof(IGenericRepository<>))
                    .InstancePerRequest();
 
-             
+            builder.RegisterType<ProductService>()
+                  .As<IProductService>()
+                  .InstancePerRequest();
+
             //Set the dependency resolver to be Autofac.  
             Container = builder.Build();
 

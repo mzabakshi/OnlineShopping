@@ -153,6 +153,10 @@
       <Project>{41629aa6-864f-45ce-8e03-9a1785eaac7d}</Project>
       <Name>OnlineShopping.DAL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\OnlineShopping.Services\OnlineShopping.Services.csproj">
+      <Project>{6cad7a0e-154c-4460-a300-3dcfe73fe60d}</Project>
+      <Name>OnlineShopping.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
