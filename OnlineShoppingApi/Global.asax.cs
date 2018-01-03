@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AutoFacWithWebAPI.App_Start;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,7 @@ namespace OnlineShoppingApi
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
+            AutofacWebapiConfig.Initialize(GlobalConfiguration.Configuration);
         }
     }
 }

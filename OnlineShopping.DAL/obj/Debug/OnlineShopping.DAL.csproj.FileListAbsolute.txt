@@ -1,0 +1,10 @@
+C:\Users\zakiu\source\repos\OnlineShopping\OnlineShopping.DAL\bin\Debug\OnlineShopping.DAL.dll.config
+C:\Users\zakiu\source\repos\OnlineShopping\OnlineShopping.DAL\bin\Debug\OnlineShopping.DAL.dll
+C:\Users\zakiu\source\repos\OnlineShopping\OnlineShopping.DAL\bin\Debug\OnlineShopping.DAL.pdb
+C:\Users\zakiu\source\repos\OnlineShopping\OnlineShopping.DAL\bin\Debug\EntityFramework.dll
+C:\Users\zakiu\source\repos\OnlineShopping\OnlineShopping.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\zakiu\source\repos\OnlineShopping\OnlineShopping.DAL\bin\Debug\EntityFramework.xml
+C:\Users\zakiu\source\repos\OnlineShopping\OnlineShopping.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\zakiu\source\repos\OnlineShopping\OnlineShopping.DAL\obj\Debug\OnlineShopping.DAL.csproj.CoreCompileInputs.cache
+C:\Users\zakiu\source\repos\OnlineShopping\OnlineShopping.DAL\obj\Debug\OnlineShopping.DAL.dll
+C:\Users\zakiu\source\repos\OnlineShopping\OnlineShopping.DAL\obj\Debug\OnlineShopping.DAL.pdb
