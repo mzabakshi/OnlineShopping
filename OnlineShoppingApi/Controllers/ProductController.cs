@@ -12,12 +12,10 @@ namespace OnlineShoppingApi.Controllers
 {
     public class ProductController : ApiController
     {
-        private readonly IGenericRepository<Product> productRepository;
         private readonly IProductService productService;
 
-        public ProductController(IGenericRepository<Product> productRepository, IProductService productService)
+        public ProductController(IProductService productService)
         {
-            this.productRepository = productRepository;
             this.productService = productService;
         }
 
@@ -33,7 +31,6 @@ namespace OnlineShoppingApi.Controllers
         public IHttpActionResult CreateProduct(Product product)
         {
             product.CreatedOn = DateTime.Today;
-            //productRepository.Insert(product);
             productService.InsertProduct(product);
             return Ok();
         }
